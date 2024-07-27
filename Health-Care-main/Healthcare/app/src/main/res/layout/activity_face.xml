@@ -1,0 +1,397 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Face">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center_horizontal"
+        android:text="Best Skin Care Products"
+        android:textColor="@color/black"
+        android:textSize="30dp" />
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="40dp"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:layout_width="150dp"
+                            android:layout_height="250dp"
+                            android:src="@drawable/vaitamin_c_facewash"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:gravity="center_horizontal"
+                            android:text="Vitamin C Face Wash with Vitamin C and Turmeric for Skin Illumination - 100ml"
+                            android:textColor="@color/black"
+                            android:textSize="10dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:gravity="center_horizontal"
+                            android:text="Brightens Skin| Evens Skin Tone| Makes Skin Glow"
+                            android:textColor="#3CB371"
+                            android:textSize="10dp"
+                            android:textStyle="bold" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="14dp"
+                            android:textSize="10dp"
+                            android:drawableStart="@drawable/ic_baseline_star_18"
+                            android:gravity="center_horizontal"
+                            android:text="4.8 | 699 Reviews"
+                            android:textColor="#808080"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="14dp"
+                            android:textSize="10dp"
+                            android:gravity="center_horizontal"
+                            android:text="₹325.00"
+                            android:textColor="@color/black"/>
+
+                        <Button
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:backgroundTint="#00AEEF"
+                            android:onClick="vai_C"
+                            android:text="Buy Now"
+                            android:textColor="@color/white" />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="20dp"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:layout_width="150dp"
+                            android:layout_height="250dp"
+                            android:onClick="ub_fw"
+                            android:src="@drawable/ubtan_facewash"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:gravity="center_horizontal"
+                            android:text="Ubtan Face Wash with Turmeric | Saffron for Tan Removal – 150 ml"
+                            android:textColor="@color/black"
+                            android:textSize="10dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:gravity="center_horizontal"
+                            android:text="Removes Tan | Brightens Skin"
+                            android:textColor="#3CB371"
+                            android:textSize="10dp"
+                            android:textStyle="bold" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="14dp"
+                            android:textSize="10dp"
+                            android:drawableStart="@drawable/ic_baseline_star_18"
+                            android:gravity="center_horizontal"
+                            android:text="4.8 | 225 Reviews"
+                            android:textColor="#808080"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="14dp"
+                            android:textSize="10dp"
+                            android:gravity="center_horizontal"
+                            android:text="₹349.00"
+                            android:textColor="@color/black"/>
+
+                        <Button
+                            android:id="@+id/gal"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:backgroundTint="#00AEEF"
+                            android:text="Buy Now"
+                            android:onClick="ub_fw"
+                            android:textColor="@color/white" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="40dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="250dp"
+                        android:src="@drawable/teatree"
+                        android:onClick="t_fw"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:gravity="center_horizontal"
+                        android:text="Tea Tree Facewash for acne and pimples, 100ml"
+                        android:textColor="@color/black"
+                        android:textSize="10dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:gravity="center_horizontal"
+                        android:text="Deeply Cleanses | Removes Dirt and Impurities"
+                        android:textColor="#3CB371"
+                        android:textSize="10dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="14dp"
+                        android:drawableStart="@drawable/ic_baseline_star_18"
+                        android:gravity="center_horizontal"
+                        android:text="4.7 | 664 Reviews"
+                        android:textColor="#808080"
+                        android:textSize="10dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="14dp"
+                        android:gravity="center_horizontal"
+                        android:text="₹399.00"
+                        android:textColor="@color/black"
+                        android:textSize="10dp" />
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:backgroundTint="#00AEEF"
+                        android:text="Buy Now"
+                        android:onClick="t_fw"
+                        android:textColor="@color/white" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="20dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="250dp"
+                        android:onClick="U_fw"
+                        android:src="@drawable/ubtan_facewash_big" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:gravity="center_horizontal"
+                        android:text="Ubtan Face Wash with Turmeric | Saffron for Tan Removal – 150 ml"
+                        android:textColor="@color/black"
+                        android:textSize="10dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:gravity="center_horizontal"
+                        android:text="Removes Tan | Brightens Skin"
+                        android:textColor="#3CB371"
+                        android:textSize="10dp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="14dp"
+                        android:textSize="10dp"
+                        android:drawableStart="@drawable/ic_baseline_star_18"
+                        android:gravity="center_horizontal"
+                        android:text="4.8 | 225 Reviews"
+                        android:textColor="#808080"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="14dp"
+                        android:textSize="10dp"
+                        android:gravity="center_horizontal"
+                        android:text="₹349.00"
+                        android:textColor="@color/black"/>
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:backgroundTint="#00AEEF"
+                        android:text="Buy Now"
+                        android:onClick="U_fw"
+                        android:textColor="@color/white" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="40dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/img_chav"
+                            android:layout_width="150dp"
+                            android:layout_height="250dp"
+                            android:onClick="tea_fw"
+                            android:src="@drawable/fwl_facewash" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:gravity="center_horizontal"
+                            android:text="Green Tea Face Wash With Green Tea | Collagen For Open Pores - 100 ml"
+                            android:textColor="@color/black"
+                            android:textSize="10dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:gravity="center_horizontal"
+                            android:text="Useful in cough, bronchial asthma, loss of appetite, loss of memory"
+                            android:textColor="#3CB371"
+                            android:textSize="10dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="14dp"
+                            android:drawableStart="@drawable/ic_baseline_star_18"
+                            android:gravity="center_horizontal"
+                            android:text="5.0 | 399 Reviews"
+                            android:textColor="#808080"
+                            android:textSize="10dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="14dp"
+                            android:gravity="center_horizontal"
+                            android:text="₹399.00"
+                            android:textColor="@color/black"
+                            android:textSize="10dp" />
+
+                        <Button
+                            android:id="@+id/chav"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:backgroundTint="#00AEEF"
+                            android:onClick="tea_fw"
+                            android:text="Buy Now"
+                            android:textColor="@color/white" />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="20dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/img_tulsidrop"
+                            android:layout_width="150dp"
+                            android:layout_height="250dp"
+                            android:onClick="A_fw"
+                            android:src="@drawable/oil_free" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:gravity="center_horizontal"
+                            android:text="Oil-Free Face Wash with Apple Cider Vinegar |wwwd Salicylic Acid for Acne-Prone Skin– 250 ml"
+                            android:textColor="@color/black"
+                            android:textSize="10dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:gravity="center_horizontal"
+                            android:text="Removes Excess Oil | Eliminates Grime | Dirt"
+                            android:textColor="#3CB371"
+                            android:textSize="10dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="14dp"
+                            android:drawableStart="@drawable/ic_baseline_star_18"
+                            android:gravity="center_horizontal"
+                            android:text="4.9 | 120 Reviews"
+                            android:textColor="#808080"
+                            android:textSize="10dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="14dp"
+                            android:gravity="center_horizontal"
+                            android:text="₹449.00"
+                            android:textColor="@color/black"
+                            android:textSize="10dp" />
+
+                        <Button
+                            android:id="@+id/tulsidrop"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:backgroundTint="#00AEEF"
+                            android:onClick="A_fw"
+                            android:text="Buy Now"
+                            android:textColor="@color/white" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </HorizontalScrollView>
+
+</LinearLayout>

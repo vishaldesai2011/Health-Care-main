@@ -1,0 +1,398 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Hair">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center_horizontal"
+        android:text="Best Hair Care Products"
+        android:textColor="@color/black"
+        android:textSize="30dp" />
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="40dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="150dp"
+                            android:layout_height="250dp"
+                            android:onClick="oni_s"
+                            android:src="@drawable/onion_oil" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:gravity="center_horizontal"
+                            android:text="Onion Shampoo with Onion and Plant Keratin for Hair Fall Control - 250ml"
+                            android:textColor="@color/black"
+                            android:textSize="10dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:gravity="center_horizontal"
+                            android:text="Reduces Hair Fall | Strengthens Hair |Softens Hair"
+                            android:textColor="#3CB371"
+                            android:textSize="10dp"
+                            android:textStyle="bold" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="14dp"
+                            android:textSize="10dp"
+                            android:drawableStart="@drawable/ic_baseline_star_18"
+                            android:gravity="center_horizontal"
+                            android:text="4.7 | 22 Ratings"
+                            android:textColor="#808080"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="14dp"
+                            android:textSize="10dp"
+                            android:gravity="center_horizontal"
+                            android:text="₹399.00"
+                            android:textColor="@color/black"/>
+
+                        <Button
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:backgroundTint="#00AEEF"
+                            android:onClick="oni_s"
+                            android:text="Buy Now"
+                            android:textColor="@color/white" />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="20dp"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:layout_width="150dp"
+                            android:layout_height="250dp"
+                            android:onClick="tea_s"
+                            android:src="@drawable/tea_s"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:gravity="center_horizontal"
+                            android:text="Tea Tree Shampoo for Dandruff Free Hair - 250ml"
+                            android:textColor="@color/black"
+                            android:textSize="10dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:gravity="center_horizontal"
+                            android:text="Reduces Dandruff | Controls Oil | Soothes Scalp"
+                            android:textColor="#3CB371"
+                            android:textSize="10dp"
+                            android:textStyle="bold" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="14dp"
+                            android:textSize="10dp"
+                            android:drawableStart="@drawable/ic_baseline_star_18"
+                            android:gravity="center_horizontal"
+                            android:text="4.7 | 265 Reviews"
+                            android:textColor="#808080"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="14dp"
+                            android:textSize="10dp"
+                            android:gravity="center_horizontal"
+                            android:text="₹244.00"
+                            android:textColor="@color/black"/>
+
+                        <Button
+                            android:id="@+id/gal"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:backgroundTint="#00AEEF"
+                            android:onClick="tea_s"
+                            android:text="Buy Now"
+                            android:textColor="@color/white" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="40dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="150dp"
+                            android:layout_height="250dp"
+                            android:src="@drawable/hena_s"
+                            android:onClick="hena_s"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:gravity="center_horizontal"
+                            android:text="Henna Shampoo with Henna and Deep Roast Coffee for Premature Greying - 250 ml"
+                            android:textColor="@color/black"
+                            android:textSize="10dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:gravity="center_horizontal"
+                            android:text="Gently Cleanses Hair | Prevents Premature Greying"
+                            android:textColor="#3CB371"
+                            android:textSize="10dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="14dp"
+                            android:drawableStart="@drawable/ic_baseline_star_18"
+                            android:gravity="center_horizontal"
+                            android:text="4.7 | 664 Reviews"
+                            android:textColor="#808080"
+                            android:textSize="10dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="14dp"
+                            android:gravity="center_horizontal"
+                            android:text="₹349.00"
+                            android:textColor="@color/black"
+                            android:textSize="10dp" />
+
+                        <Button
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:backgroundTint="#00AEEF"
+                            android:onClick="hena_s"
+                            android:text="Buy Now"
+                            android:textColor="@color/white" />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="20dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="150dp"
+                            android:layout_height="250dp"
+                            android:onClick="alm_s"
+                            android:src="@drawable/rice_s" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:gravity="center_horizontal"
+                            android:text="Rice Water Shampoo For Damage Repair - 250ml"
+                            android:textColor="@color/black"
+                            android:textSize="10dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:gravity="center_horizontal"
+                            android:text="Repairs Damaged Hair | Reduces Split Ends"
+                            android:textColor="#3CB371"
+                            android:textSize="10dp"
+                            android:textStyle="bold" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="14dp"
+                            android:textSize="10dp"
+                            android:drawableStart="@drawable/ic_baseline_star_18"
+                            android:gravity="center_horizontal"
+                            android:text="4.9 | 260 Reviews"
+                            android:textColor="#808080"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="14dp"
+                            android:textSize="10dp"
+                            android:gravity="center_horizontal"
+                            android:text="₹349.00"
+                            android:textColor="@color/black"/>
+
+                        <Button
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:backgroundTint="#00AEEF"
+                            android:text="Buy Now"
+                            android:onClick="r_s"
+                            android:textColor="@color/white" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="40dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/img_chav"
+                            android:layout_width="150dp"
+                            android:layout_height="250dp"
+                            android:onClick="am_s"
+                            android:src="@drawable/bhr_s" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:gravity="center_horizontal"
+                            android:text="BhringAmla Shampoo with Bhringraj and Amla for Intense Hair Treatment - 250 ml"
+                            android:textColor="@color/black"
+                            android:textSize="10dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:gravity="center_horizontal"
+                            android:text="Repairs Damaged Hair | Boosts Hair Growth"
+                            android:textColor="#3CB371"
+                            android:textSize="10dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="14dp"
+                            android:drawableStart="@drawable/ic_baseline_star_18"
+                            android:gravity="center_horizontal"
+                            android:text="5.0 | 399 Reviews"
+                            android:textColor="#808080"
+                            android:textSize="10dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="14dp"
+                            android:gravity="center_horizontal"
+                            android:text="₹399.00"
+                            android:textColor="@color/black"
+                            android:textSize="10dp" />
+
+                        <Button
+                            android:id="@+id/chav"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:backgroundTint="#00AEEF"
+                            android:onClick="am_s"
+                            android:text="Buy Now"
+                            android:textColor="@color/white" />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="20dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="150dp"
+                            android:layout_height="250dp"
+                            android:onClick="alm_s"
+                                android:src="@drawable/almond_s" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:gravity="center_horizontal"
+                            android:text="Almond Shampoo with Cold Pressed Almond Oil and Vitamin E for Healthy Hair Growth - 250 ml"
+                            android:textColor="@color/black"
+                            android:textSize="10dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:gravity="center_horizontal"
+                            android:text="Gently Cleanses | Boosts Healthy Hair Growth"
+                            android:textColor="#3CB371"
+                            android:textSize="10dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="14dp"
+                            android:drawableStart="@drawable/ic_baseline_star_18"
+                            android:gravity="center_horizontal"
+                            android:text="4.6 | 455 Reviews"
+                            android:textColor="#808080"
+                            android:textSize="10dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="14dp"
+                            android:gravity="center_horizontal"
+                            android:text="₹399.00"
+                            android:textColor="@color/black"
+                            android:textSize="10dp" />
+
+                        <Button
+                            android:id="@+id/tulsidrop"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:backgroundTint="#00AEEF"
+                            android:onClick="alm_s"
+                            android:text="Buy Now"
+                            android:textColor="@color/white" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </HorizontalScrollView>
+
+</LinearLayout>

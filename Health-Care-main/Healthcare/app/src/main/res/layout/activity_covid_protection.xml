@@ -1,0 +1,400 @@
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CovidProtection">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center_horizontal"
+        android:text="Covid Protection"
+        android:textColor="@color/black"
+        android:textSize="30dp" />
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="40dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/img_disprin"
+                    android:layout_width="150dp"
+                    android:layout_height="250dp"
+                    android:src="@drawable/thermometer" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:gravity="center_horizontal"
+                    android:text="Digital Thermometer, 1 Count"
+                    android:textColor="@color/black"
+                    android:textSize="10dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:gravity="center_horizontal"
+                    android:text="Safe and accurate result | Dual MoFast Responce Time | Auto Shut Off"
+                    android:textColor="#3CB371"
+                    android:textSize="10dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="14dp"
+                    android:drawableStart="@drawable/ic_baseline_star_18"
+                    android:gravity="center_horizontal"
+                    android:text="3.9 | 22 Reviews"
+                    android:textColor="#808080"
+                    android:textSize="10dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="14dp"
+                    android:gravity="center_horizontal"
+                    android:text="₹99.00"
+                    android:textColor="@color/black"
+                    android:textSize="10dp" />
+
+                <Button
+                    android:id="@+id/disprin"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:backgroundTint="#00AEEF"
+                    android:text="Buy Now"
+                    android:textColor="@color/white" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="20dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/img_gal"
+                    android:layout_width="150dp"
+                    android:layout_height="250dp"
+                    android:src="@drawable/hand_senitizer" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:gravity="center_horizontal"
+                    android:text="senttol Spray Liquid 2 LTR Refill Pack, Ethyl Alcohol 70% Hand Sanitizer Can  (2000 ml)"
+                    android:textColor="@color/black"
+                    android:textSize="10dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:gravity="center_horizontal"
+                    android:text="LEMON Fragrance | Kills 99.9% of germs without water."
+                    android:textColor="#3CB371"
+                    android:textSize="10dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="14dp"
+                    android:drawableStart="@drawable/ic_baseline_star_18"
+                    android:gravity="center_horizontal"
+                    android:text="4.1 | 177 Reviews"
+                    android:textColor="#808080"
+                    android:textSize="10dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="14dp"
+                    android:gravity="center_horizontal"
+                    android:text="₹426.00"
+                    android:textColor="@color/black"
+                    android:textSize="10dp" />
+
+                <Button
+                    android:id="@+id/gal"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:backgroundTint="#00AEEF"
+                    android:text="Buy Now"
+                    android:textColor="@color/white" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="40dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/img_zandu"
+                    android:layout_width="150dp"
+                    android:layout_height="250dp"
+                    android:src="@drawable/mask" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:gravity="center_horizontal"
+                    android:text="5 Layers Premium N95 Earloop Mask for Unisex with  Strip Non-Washable  (Pack of 10) "
+                    android:textColor="@color/black"
+                    android:textSize="10dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:gravity="center_horizontal"
+                    android:text="Air-purifying Respirator | Earloop Mount"
+                    android:textColor="#3CB371"
+                    android:textSize="10dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="14dp"
+                    android:drawableStart="@drawable/ic_baseline_star_18"
+                    android:gravity="center_horizontal"
+                    android:text="4 | 58 Reviews"
+                    android:textColor="#808080"
+                    android:textSize="10dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="14dp"
+                    android:gravity="center_horizontal"
+                    android:text="₹250.00"
+                    android:textColor="@color/black"
+                    android:textSize="10dp" />
+
+                <Button
+                    android:id="@+id/zandu"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:backgroundTint="#00AEEF"
+                    android:text="Buy Now"
+                    android:textColor="@color/white" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="20dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/img_painout"
+                    android:layout_width="150dp"
+                    android:layout_height="250dp"
+                    android:src="@drawable/vaitaminc" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:gravity="center_horizontal"
+                    android:text="Limcee Vitamin C 500 mg Orange Flavour Chewable, 15 Tablets"
+                    android:textColor="@color/black"
+                    android:textSize="10dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:gravity="center_horizontal"
+                    android:text="Tightens Open Pores | Restores Skin's pH Balance"
+                    android:textColor="#3CB371"
+                    android:textSize="10dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="14dp"
+                    android:drawableStart="@drawable/ic_baseline_star_18"
+                    android:gravity="center_horizontal"
+                    android:text="4.7 | 243 Reviews"
+                    android:textColor="#808080"
+                    android:textSize="10dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="14dp"
+                    android:gravity="center_horizontal"
+                    android:text="₹101.00"
+                    android:textColor="@color/black"
+                    android:textSize="10dp" />
+
+                <Button
+                    android:id="@+id/painout"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:backgroundTint="#00AEEF"
+                    android:text="Buy Now"
+                    android:textColor="@color/white" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="40dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/img_chav"
+                    android:layout_width="150dp"
+                    android:layout_height="250dp"
+                    android:src="@drawable/zink" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:gravity="center_horizontal"
+                    android:text="Zincovit Tablet 15's"
+                    android:textColor="@color/black"
+                    android:textSize="10dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:gravity="center_horizontal"
+                    android:text="Replenishes the body’s need for essential vitamins and minerals."
+                    android:textColor="#3CB371"
+                    android:textSize="10dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="14dp"
+                    android:drawableStart="@drawable/ic_baseline_star_18"
+                    android:gravity="center_horizontal"
+                    android:text="4.7 | 60 Reviews"
+                    android:textColor="#808080"
+                    android:textSize="10dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="14dp"
+                    android:gravity="center_horizontal"
+                    android:text="₹107.00"
+                    android:textColor="@color/black"
+                    android:textSize="10dp" />
+
+                <Button
+                    android:id="@+id/chav"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:backgroundTint="#00AEEF"
+                    android:text="Buy Now"
+                    android:textColor="@color/white" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="20dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/img_tulsidrop"
+                    android:layout_width="150dp"
+                    android:layout_height="250dp"
+                    android:src="@drawable/vaitamin_b" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:gravity="center_horizontal"
+                    android:text="Vitamin B-12, 30 Tablets"
+                    android:textColor="@color/black"
+                    android:textSize="10dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:gravity="center_horizontal"
+                    android:text="Vitamin B12 contributes to the reduction of tiredness and fatigue | Digestive Support."
+                    android:textColor="#3CB371"
+                    android:textSize="10dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="14dp"
+                    android:drawableStart="@drawable/ic_baseline_star_18"
+                    android:gravity="center_horizontal"
+                    android:text="4.8 | 225 Reviews"
+                    android:textColor="#808080"
+                    android:textSize="10dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="14dp"
+                    android:gravity="center_horizontal"
+                    android:text="₹139.00"
+                    android:textColor="@color/black"
+                    android:textSize="10dp" />
+
+                <Button
+                    android:id="@+id/tulsidrop"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:backgroundTint="#00AEEF"
+                    android:text="Buy Now"
+                    android:textColor="@color/white" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+    </ScrollView>
+    </HorizontalScrollView>
+
+</LinearLayout>

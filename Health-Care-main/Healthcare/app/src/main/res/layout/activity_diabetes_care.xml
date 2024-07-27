@@ -1,0 +1,279 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DiabetesCare">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center_horizontal"
+        android:text="Covid Protection"
+        android:textColor="@color/black"
+        android:textSize="30dp" />
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="40dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/glucose_strip"
+                            android:layout_width="150dp"
+                            android:layout_height="250dp"
+                            android:src="@drawable/glucose_strip" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:gravity="center_horizontal"
+                            android:text="Apollo Pharmacy Blood Glucose Test Strips, 50 Count"
+                            android:textColor="@color/black"
+                            android:textSize="10dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:gravity="center_horizontal"
+                            android:text="50 Glucometer Strips"
+                            android:textColor="#3CB371"
+                            android:textSize="10dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="14dp"
+                            android:drawableStart="@drawable/ic_baseline_star_18"
+                            android:gravity="center_horizontal"
+                            android:text="3.9 | 22 Reviews"
+                            android:textColor="#808080"
+                            android:textSize="10dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="14dp"
+                            android:gravity="center_horizontal"
+                            android:text="₹720.00"
+                            android:textColor="@color/black"
+                            android:textSize="10dp" />
+
+                        <Button
+                            android:id="@+id/disprin"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:backgroundTint="#00AEEF"
+                            android:text="Buy Now"
+                            android:textColor="@color/white" />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="20dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/img_gal"
+                            android:layout_width="150dp"
+                            android:layout_height="250dp"
+                            android:src="@drawable/glucometer" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:gravity="center_horizontal"
+                            android:text="Diabetes Glucose Blood Sugar Testing Monitor with 50 Strips of Glucometer"
+                            android:textColor="@color/black"
+                            android:textSize="10dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:gravity="center_horizontal"
+                            android:text="EASY TO USE | ADJUSTABLE LANCET"
+                            android:textColor="#3CB371"
+                            android:textSize="10dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="14dp"
+                            android:drawableStart="@drawable/ic_baseline_star_18"
+                            android:gravity="center_horizontal"
+                            android:text="3.9 | 49 Reviews"
+                            android:textColor="#808080"
+                            android:textSize="10dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="14dp"
+                            android:gravity="center_horizontal"
+                            android:text="₹589.00"
+                            android:textColor="@color/black"
+                            android:textSize="10dp" />
+
+                        <Button
+                            android:id="@+id/gal"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:backgroundTint="#00AEEF"
+                            android:text="Buy Now"
+                            android:textColor="@color/white" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="40dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/img_zandu"
+                            android:layout_width="150dp"
+                            android:layout_height="250dp"
+                            android:src="@drawable/suger" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:gravity="center_horizontal"
+                            android:text="Sugar Free Natura Low Calorie Sweetner, Pellets, 42.5g ( 500 count ) "
+                            android:textColor="@color/black"
+                            android:textSize="10dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:gravity="center_horizontal"
+                            android:text="A boon to diabetics and health conscious people"
+                            android:textColor="#3CB371"
+                            android:textSize="10dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="14dp"
+                            android:drawableStart="@drawable/ic_baseline_star_18"
+                            android:gravity="center_horizontal"
+                            android:text="4.9 | 2023 Reviews"
+                            android:textColor="#808080"
+                            android:textSize="10dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="14dp"
+                            android:gravity="center_horizontal"
+                            android:text="₹270.00"
+                            android:textColor="@color/black"
+                            android:textSize="10dp" />
+
+                        <Button
+                            android:id="@+id/zandu"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:backgroundTint="#00AEEF"
+                            android:text="Buy Now"
+                            android:textColor="@color/white" />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="20dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/img_painout"
+                            android:layout_width="150dp"
+                            android:layout_height="250dp"
+                            android:src="@drawable/protin" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:gravity="center_horizontal"
+                            android:text="Diabetic Protein Powder Vanilla Flavour, 400 gm"
+                            android:textColor="@color/black"
+                            android:textSize="10dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:gravity="center_horizontal"
+                            android:text="It is balanced and complete low calorie nutritional"
+                            android:textColor="#3CB371"
+                            android:textSize="10dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="14dp"
+                            android:drawableStart="@drawable/ic_baseline_star_18"
+                            android:gravity="center_horizontal"
+                            android:text="4.7 | 243 Reviews"
+                            android:textColor="#808080"
+                            android:textSize="10dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="14dp"
+                            android:gravity="center_horizontal"
+                            android:text="₹695.00"
+                            android:textColor="@color/black"
+                            android:textSize="10dp" />
+
+                        <Button
+                            android:id="@+id/painout"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:backgroundTint="#00AEEF"
+                            android:text="Buy Now"
+                            android:textColor="@color/white" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+    </HorizontalScrollView>
+
+</LinearLayout>

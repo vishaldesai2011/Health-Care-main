@@ -1,0 +1,410 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Ayurveda">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center_horizontal"
+        android:text="Covid Protection"
+        android:textColor="@color/black"
+        android:textSize="30dp" />
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="40dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/img_disprin"
+                            android:layout_width="150dp"
+                            android:layout_height="250dp"
+                            android:onClick="img_honitus"
+                            android:src="@drawable/honitus" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:gravity="center_horizontal"
+                            android:text="Dabur Honitus Herbal Cough Remedy Syrup, 100 ml"
+                            android:textColor="@color/black"
+                            android:textSize="10dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:gravity="center_horizontal"
+                            android:text="Clinically proven and provides fast relief against acute cough"
+                            android:textColor="#3CB371"
+                            android:textSize="10dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="14dp"
+                            android:drawableStart="@drawable/ic_baseline_star_18"
+                            android:gravity="center_horizontal"
+                            android:text="4.3 | 100 Reviews"
+                            android:textColor="#808080"
+                            android:textSize="10dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="14dp"
+                            android:gravity="center_horizontal"
+                            android:text="₹100.00"
+                            android:textColor="@color/black"
+                            android:textSize="10dp" />
+
+                        <Button
+                            android:id="@+id/disprin"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:backgroundTint="#00AEEF"
+                            android:onClick="honitus"
+                            android:text="Buy Now"
+                            android:textColor="@color/white" />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="20dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="150dp"
+                            android:layout_height="250dp"
+                            android:onClick="hajmola"
+                            android:src="@drawable/hajmola" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:gravity="center_horizontal"
+                            android:text="Dabur Hajmola Imli, 120 Tablets(pack 2)"
+                            android:textColor="@color/black"
+                            android:textSize="10dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:gravity="center_horizontal"
+                            android:text="Formulated in a unique tangy, sweet, salty, and spicy Imli flavor. "
+                            android:textColor="#3CB371"
+                            android:textSize="10dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="14dp"
+                            android:drawableStart="@drawable/ic_baseline_star_18"
+                            android:gravity="center_horizontal"
+                            android:text="4.1 | 177 Reviews"
+                            android:textColor="#808080"
+                            android:textSize="10dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="14dp"
+                            android:gravity="center_horizontal"
+                            android:text="₹110.00"
+                            android:textColor="@color/black"
+                            android:textSize="10dp" />
+
+                        <Button
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:backgroundTint="#00AEEF"
+                            android:onClick="hajmola"
+                            android:text="Buy Now"
+                            android:textColor="@color/white" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="40dp"
+                        android:onClick="hajmola1"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/img_zandu"
+                            android:layout_width="150dp"
+                            android:layout_height="250dp"
+                            android:src="@drawable/hajmola1" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:gravity="center_horizontal"
+                            android:text="Dabur Hajmola Imli, 120 Tablets (Pack of 2)"
+                            android:textColor="@color/black"
+                            android:textSize="10dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:gravity="center_horizontal"
+                            android:text="Formulated in a unique tangy, sweet, salty, and spicy Imli flavor. "
+                            android:textColor="#3CB371"
+                            android:textSize="10dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="14dp"
+                            android:drawableStart="@drawable/ic_baseline_star_18"
+                            android:gravity="center_horizontal"
+                            android:text="4 | 58 Reviews"
+                            android:textColor="#808080"
+                            android:textSize="10dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="14dp"
+                            android:gravity="center_horizontal"
+                            android:text="₹112.00"
+                            android:textColor="@color/black"
+                            android:textSize="10dp" />
+
+                        <Button
+                            android:id="@+id/zandu"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:backgroundTint="#00AEEF"
+                            android:onClick="hajmola11"
+                            android:text="Buy Now"
+                            android:textColor="@color/white" />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="20dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/img_painout"
+                            android:layout_width="150dp"
+                            android:layout_height="250dp"
+                            android:onClick="img_ashwagandha"
+                            android:src="@drawable/ashwagandha" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:gravity="center_horizontal"
+                            android:text="Patanjali Divya Ashwagandha Churna, 100 gm"
+                            android:textColor="@color/black"
+                            android:textSize="10dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:gravity="center_horizontal"
+                            android:text="Used as rejuvenating agent"
+                            android:textColor="#3CB371"
+                            android:textSize="10dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="14dp"
+                            android:drawableStart="@drawable/ic_baseline_star_18"
+                            android:gravity="center_horizontal"
+                            android:text="4.5 | 243 Reviews"
+                            android:textColor="#808080"
+                            android:textSize="10dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="14dp"
+                            android:gravity="center_horizontal"
+                            android:text="₹103.00"
+                            android:textColor="@color/black"
+                            android:textSize="10dp" />
+
+                        <Button
+                            android:id="@+id/painout"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:backgroundTint="#00AEEF"
+                            android:onClick="ashwagandha"
+                            android:text="Buy Now"
+                            android:textColor="@color/white" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="40dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/img_chav"
+                            android:layout_width="150dp"
+                            android:layout_height="250dp"
+                            android:onClick="chaw"
+                            android:src="@drawable/chyawanprash" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:gravity="center_horizontal"
+                            android:text="Patanjali Chyawanprash, 1 kg"
+                            android:textColor="@color/black"
+                            android:textSize="10dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:gravity="center_horizontal"
+                            android:text="Useful in cough, bronchial asthma, loss of appetite, loss of memory"
+                            android:textColor="#3CB371"
+                            android:textSize="10dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="14dp"
+                            android:drawableStart="@drawable/ic_baseline_star_18"
+                            android:gravity="center_horizontal"
+                            android:text="5.0 | 302 Reviews"
+                            android:textColor="#808080"
+                            android:textSize="10dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="14dp"
+                            android:gravity="center_horizontal"
+                            android:text="₹210.00"
+                            android:textColor="@color/black"
+                            android:textSize="10dp" />
+
+                        <Button
+                            android:id="@+id/chav"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:backgroundTint="#00AEEF"
+                            android:onClick="chaw"
+                            android:text="Buy Now"
+                            android:textColor="@color/white" />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="20dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/img_tulsidrop"
+                            android:layout_width="150dp"
+                            android:layout_height="250dp"
+                            android:onClick="td"
+                            android:src="@drawable/tulsidrop" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:gravity="center_horizontal"
+                            android:text="Dabur Tulsi Drops"
+                            android:textColor="@color/black"
+                            android:textSize="10dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:gravity="center_horizontal"
+                            android:text="It helps boost immunity"
+                            android:textColor="#3CB371"
+                            android:textSize="10dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="14dp"
+                            android:drawableStart="@drawable/ic_baseline_star_18"
+                            android:gravity="center_horizontal"
+                            android:text="4.8 | 1200 Reviews"
+                            android:textColor="#808080"
+                            android:textSize="10dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="14dp"
+                            android:gravity="center_horizontal"
+                            android:text="₹112.00"
+                            android:textColor="@color/black"
+                            android:textSize="10dp" />
+
+                        <Button
+                            android:id="@+id/tulsidrop"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:backgroundTint="#00AEEF"
+                            android:onClick="td"
+                            android:text="Buy Now"
+                            android:textColor="@color/white" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </HorizontalScrollView>
+
+</LinearLayout>

@@ -1,0 +1,1145 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AllProducts">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center_horizontal"
+        android:text="All Products"
+        android:textColor="@color/black"
+        android:textSize="30dp" />
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="40dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/img_disprins"
+                            android:layout_width="150dp"
+                            android:layout_height="250dp"
+                            android:onClick="dabar"
+                            android:src="@drawable/honitus" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:gravity="center_horizontal"
+                            android:text="Dabur Honitus Herbal Cough Remedy Syrup, 100 ml"
+                            android:textColor="@color/black"
+                            android:textSize="10dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:gravity="center_horizontal"
+                            android:text="Clinically proven and provides fast relief against acute cough"
+                            android:textColor="#3CB371"
+                            android:textSize="10dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="14dp"
+                            android:drawableStart="@drawable/ic_baseline_star_18"
+                            android:gravity="center_horizontal"
+                            android:text="4.3 | 100 Reviews"
+                            android:textColor="#808080"
+                            android:textSize="10dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="14dp"
+                            android:gravity="center_horizontal"
+                            android:text="₹100.00"
+                            android:textColor="@color/black"
+                            android:textSize="10dp" />
+
+                        <Button
+                            android:id="@+id/disprins"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:backgroundTint="#00AEEF"
+                            android:onClick="dabar"
+                            android:text="Buy Now"
+                            android:textColor="@color/white" />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="20dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="150dp"
+                            android:layout_height="250dp"
+                            android:onClick="hajmola"
+                            android:src="@drawable/hajmola" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:gravity="center_horizontal"
+                            android:text="Dabur Hajmola Imli, 120 Tablets(pack 2)"
+                            android:textColor="@color/black"
+                            android:textSize="10dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:gravity="center_horizontal"
+                            android:text="Formulated in a unique tangy, sweet, salty, and spicy Imli flavor. "
+                            android:textColor="#3CB371"
+                            android:textSize="10dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="14dp"
+                            android:drawableStart="@drawable/ic_baseline_star_18"
+                            android:gravity="center_horizontal"
+                            android:text="4.1 | 177 Reviews"
+                            android:textColor="#808080"
+                            android:textSize="10dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="14dp"
+                            android:gravity="center_horizontal"
+                            android:text="₹110.00"
+                            android:textColor="@color/black"
+                            android:textSize="10dp" />
+
+                        <Button
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:backgroundTint="#00AEEF"
+                            android:onClick="hajmola"
+                            android:text="Buy Now"
+                            android:textColor="@color/white" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="40dp"
+                        android:onClick="hajmola"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="150dp"
+                            android:layout_height="250dp"
+                            android:src="@drawable/hajmola1" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:gravity="center_horizontal"
+                            android:text="Dabur Hajmola Imli, 120 Tablets (Pack of 2)"
+                            android:textColor="@color/black"
+                            android:textSize="10dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:gravity="center_horizontal"
+                            android:text="Formulated in a unique tangy, sweet, salty, and spicy Imli flavor. "
+                            android:textColor="#3CB371"
+                            android:textSize="10dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="14dp"
+                            android:drawableStart="@drawable/ic_baseline_star_18"
+                            android:gravity="center_horizontal"
+                            android:text="4 | 58 Reviews"
+                            android:textColor="#808080"
+                            android:textSize="10dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="14dp"
+                            android:gravity="center_horizontal"
+                            android:text="₹112.00"
+                            android:textColor="@color/black"
+                            android:textSize="10dp" />
+
+                        <Button
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:backgroundTint="#00AEEF"
+                            android:onClick="hajmola"
+                            android:text="Buy Now"
+                            android:textColor="@color/white" />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="20dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="150dp"
+                            android:layout_height="250dp"
+                            android:onClick="ashwagandha"
+                            android:src="@drawable/ashwagandha" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:gravity="center_horizontal"
+                            android:text="Patanjali Divya Ashwagandha Churna, 100 gm"
+                            android:textColor="@color/black"
+                            android:textSize="10dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:gravity="center_horizontal"
+                            android:text="Used as rejuvenating agent"
+                            android:textColor="#3CB371"
+                            android:textSize="10dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="14dp"
+                            android:drawableStart="@drawable/ic_baseline_star_18"
+                            android:gravity="center_horizontal"
+                            android:text="4.5 | 243 Reviews"
+                            android:textColor="#808080"
+                            android:textSize="10dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="14dp"
+                            android:gravity="center_horizontal"
+                            android:text="₹103.00"
+                            android:textColor="@color/black"
+                            android:textSize="10dp" />
+
+                        <Button
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:backgroundTint="#00AEEF"
+                            android:onClick="ashwagandha"
+                            android:text="Buy Now"
+                            android:textColor="@color/white" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="40dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="150dp"
+                            android:layout_height="250dp"
+                            android:onClick="hajmola"
+                            android:src="@drawable/chyawanprash" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:gravity="center_horizontal"
+                            android:text="Patanjali Chyawanprash, 1 kg"
+                            android:textColor="@color/black"
+                            android:textSize="10dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:gravity="center_horizontal"
+                            android:text="Useful in cough, bronchial asthma, loss of appetite, loss of memory"
+                            android:textColor="#3CB371"
+                            android:textSize="10dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="14dp"
+                            android:drawableStart="@drawable/ic_baseline_star_18"
+                            android:gravity="center_horizontal"
+                            android:text="5.0 | 302 Reviews"
+                            android:textColor="#808080"
+                            android:textSize="10dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="14dp"
+                            android:gravity="center_horizontal"
+                            android:text="₹210.00"
+                            android:textColor="@color/black"
+                            android:textSize="10dp" />
+
+                        <Button
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:backgroundTint="#00AEEF"
+                            android:onClick="chaw"
+                            android:text="Buy Now"
+                            android:textColor="@color/white" />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="20dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="150dp"
+                            android:layout_height="250dp"
+                            android:onClick="td"
+                            android:src="@drawable/tulsidrop" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:gravity="center_horizontal"
+                            android:text="Dabur Tulsi Drops"
+                            android:textColor="@color/black"
+                            android:textSize="10dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:gravity="center_horizontal"
+                            android:text="It helps boost immunity"
+                            android:textColor="#3CB371"
+                            android:textSize="10dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="14dp"
+                            android:drawableStart="@drawable/ic_baseline_star_18"
+                            android:gravity="center_horizontal"
+                            android:text="4.8 | 1200 Reviews"
+                            android:textColor="#808080"
+                            android:textSize="10dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="14dp"
+                            android:gravity="center_horizontal"
+                            android:text="₹112.00"
+                            android:textColor="@color/black"
+                            android:textSize="10dp" />
+
+                        <Button
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:backgroundTint="#00AEEF"
+                            android:onClick="td"
+                            android:text="Buy Now"
+                            android:textColor="@color/white" />
+
+                    </LinearLayout>
+
+
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="40dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/glucose_strip"
+                            android:layout_width="150dp"
+                            android:layout_height="250dp"
+                            android:onClick="bg"
+                            android:src="@drawable/glucose_strip" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:gravity="center_horizontal"
+                            android:text="Apollo Pharmacy Blood Glucose Test Strips, 50 Count"
+                            android:textColor="@color/black"
+                            android:textSize="10dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:gravity="center_horizontal"
+                            android:text="50 Glucometer Strips"
+                            android:textColor="#3CB371"
+                            android:textSize="10dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="14dp"
+                            android:drawableStart="@drawable/ic_baseline_star_18"
+                            android:gravity="center_horizontal"
+                            android:text="3.9 | 22 Reviews"
+                            android:textColor="#808080"
+                            android:textSize="10dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="14dp"
+                            android:gravity="center_horizontal"
+                            android:text="₹720.00"
+                            android:textColor="@color/black"
+                            android:textSize="10dp" />
+
+                        <Button
+
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:backgroundTint="#00AEEF"
+                            android:text="Buy Now"
+                            android:onClick="bg"
+                            android:textColor="@color/white" />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="20dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="150dp"
+                            android:layout_height="250dp"
+                            android:onClick="strip"
+                            android:src="@drawable/glucometer" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:gravity="center_horizontal"
+                            android:text="Diabetes Glucose Blood Sugar Testing Monitor with 50 Strips of Glucometer"
+                            android:textColor="@color/black"
+                            android:textSize="10dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:gravity="center_horizontal"
+                            android:text="EASY TO USE | ADJUSTABLE LANCET"
+                            android:textColor="#3CB371"
+                            android:textSize="10dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="14dp"
+                            android:drawableStart="@drawable/ic_baseline_star_18"
+                            android:gravity="center_horizontal"
+                            android:text="3.9 | 49 Reviews"
+                            android:textColor="#808080"
+                            android:textSize="10dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="14dp"
+                            android:gravity="center_horizontal"
+                            android:text="₹589.00"
+                            android:textColor="@color/black"
+                            android:textSize="10dp" />
+
+                        <Button
+                            android:onClick="strip"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:backgroundTint="#00AEEF"
+                            android:text="Buy Now"
+                            android:textColor="@color/white" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="40dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="150dp"
+                            android:layout_height="250dp"
+                            android:onClick="sugar"
+                            android:src="@drawable/suger" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:gravity="center_horizontal"
+                            android:text="Sugar Free Natura Low Calorie Sweetner, Pellets, 42.5g ( 500 count ) "
+                            android:textColor="@color/black"
+                            android:textSize="10dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:gravity="center_horizontal"
+                            android:text="A boon to diabetics and health conscious people"
+                            android:textColor="#3CB371"
+                            android:textSize="10dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="14dp"
+                            android:drawableStart="@drawable/ic_baseline_star_18"
+                            android:gravity="center_horizontal"
+                            android:text="4.9 | 2023 Reviews"
+                            android:textColor="#808080"
+                            android:textSize="10dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="14dp"
+                            android:gravity="center_horizontal"
+                            android:text="₹270.00"
+                            android:textColor="@color/black"
+                            android:textSize="10dp" />
+
+                        <Button
+                            android:onClick="sugar"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:backgroundTint="#00AEEF"
+                            android:text="Buy Now"
+                            android:textColor="@color/white" />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="20dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="150dp"
+                            android:layout_height="250dp"
+                            android:onClick="prot"
+                            android:src="@drawable/protin" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:gravity="center_horizontal"
+                            android:text="Diabetic Protein Powder Vanilla Flavour, 400 gm"
+                            android:textColor="@color/black"
+                            android:textSize="10dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:gravity="center_horizontal"
+                            android:text="It is balanced and complete low calorie nutritional"
+                            android:textColor="#3CB371"
+                            android:textSize="10dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="14dp"
+                            android:drawableStart="@drawable/ic_baseline_star_18"
+                            android:gravity="center_horizontal"
+                            android:text="4.7 | 243 Reviews"
+                            android:textColor="#808080"
+                            android:textSize="10dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="14dp"
+                            android:gravity="center_horizontal"
+                            android:text="₹695.00"
+                            android:textColor="@color/black"
+                            android:textSize="10dp" />
+
+                        <Button
+                            android:onClick="prot"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:backgroundTint="#00AEEF"
+                            android:text="Buy Now"
+                            android:textColor="@color/white" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="40dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:onClick="dis"
+                            android:layout_width="150dp"
+                            android:layout_height="250dp"
+                            android:src="@drawable/disprin" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:gravity="center_horizontal"
+                            android:text="Disprin Regular 325 mg , 10's"
+                            android:textColor="@color/black"
+                            android:textSize="10dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:gravity="center_horizontal"
+                            android:text="Relieving aches, pains and fever associated with colds and flu"
+                            android:textColor="#3CB371"
+                            android:textSize="10dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="14dp"
+                            android:drawableStart="@drawable/ic_baseline_star_18"
+                            android:gravity="center_horizontal"
+                            android:text="4.0 | 2222 Reviews"
+                            android:textColor="#808080"
+                            android:textSize="10dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="14dp"
+                            android:gravity="center_horizontal"
+                            android:text="₹101.00"
+                            android:textColor="@color/black"
+                            android:textSize="10dp" />
+
+                        <Button
+                            android:id="@+id/disprin"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:backgroundTint="#00AEEF"
+                            android:text="Buy Now"
+                            android:onClick="dis"
+                            android:textColor="@color/white"
+                            tools:ignore="TouchTargetSizeCheck" />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="20dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:onClick="pain_jel"
+                            android:layout_width="150dp"
+                            android:layout_height="250dp"
+                            android:src="@drawable/pain_gel" />
+
+                        <TextView
+                            android:id="@+id/img_spray"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:gravity="center_horizontal"
+                            android:text="Pain Relief Relispray Nitron 100g"
+                            android:textColor="@color/black"
+                            android:textSize="10dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:gravity="center_horizontal"
+                            android:text="A pain relieving spray with cold therapy"
+                            android:textColor="#3CB371"
+                            android:textSize="10dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="14dp"
+                            android:drawableStart="@drawable/ic_baseline_star_18"
+                            android:gravity="center_horizontal"
+                            android:text="4.4 | 107 Reviews"
+                            android:textColor="#808080"
+                            android:textSize="10dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="14dp"
+                            android:gravity="center_horizontal"
+                            android:text="₹350.00"
+                            android:textColor="@color/black"
+                            android:textSize="10dp" />
+
+                        <Button
+                            android:onClick="pain_jel"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:backgroundTint="#00AEEF"
+                            android:text="Buy Now"
+                            android:textColor="@color/white"
+                            tools:ignore="TouchTargetSizeCheck" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="40dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:onClick="zandu"
+                            android:layout_width="150dp"
+                            android:layout_height="250dp"
+                            android:src="@drawable/moov" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:gravity="center_horizontal"
+                            android:text="Zandu Pain Relief Spray, 80 gm"
+                            android:textColor="@color/black"
+                            android:textSize="10dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:gravity="center_horizontal"
+                            android:text="Joint Pain,Muscle Pain| Osteoarthritis "
+                            android:textColor="#3CB371"
+                            android:textSize="10dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="14dp"
+                            android:drawableStart="@drawable/ic_baseline_star_18"
+                            android:gravity="center_horizontal"
+                            android:text="4.2 | 555 Reviews"
+                            android:textColor="#808080"
+                            android:textSize="10dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="14dp"
+                            android:gravity="center_horizontal"
+                            android:text="₹124.00"
+                            android:textColor="@color/black"
+                            android:textSize="10dp" />
+
+                        <Button
+                            android:onClick="zandu"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:backgroundTint="#00AEEF"
+                            android:text="Buy Now"
+                            android:textColor="@color/white" />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="20dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:onClick="paino"
+                            android:layout_width="150dp"
+                            android:layout_height="250dp"
+                            android:src="@drawable/painout" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:gravity="center_horizontal"
+                            android:text="Colgate Pain Out Dental Gel, 30 gm"
+                            android:textColor="@color/black"
+                            android:textSize="10dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:gravity="center_horizontal"
+                            android:text=" It gives relief from tooth pain in just three minutes with one drop"
+                            android:textColor="#3CB371"
+                            android:textSize="10dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="14dp"
+                            android:drawableStart="@drawable/ic_baseline_star_18"
+                            android:gravity="center_horizontal"
+                            android:text="4.7 | 243 Reviews"
+                            android:textColor="#808080"
+                            android:textSize="10dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="14dp"
+                            android:gravity="center_horizontal"
+                            android:text="₹124.00"
+                            android:textColor="@color/black"
+                            android:textSize="10dp" />
+
+                        <Button
+                            android:onClick="paino"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:backgroundTint="#00AEEF"
+                            android:text="Buy Now"
+                            android:textColor="@color/white" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="40dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:onClick="dr"
+                            android:layout_width="150dp"
+                            android:layout_height="250dp"
+                            android:src="@drawable/dr" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:gravity="center_horizontal"
+                            android:text="Dr Ortho Pain Relief Ayurvedic Medicine Oil "
+                            android:textColor="@color/black"
+                            android:textSize="10dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:gravity="center_horizontal"
+                            android:text="Ayurvedic formulation that treats pains and inflammations of the muscles and joints"
+                            android:textColor="#3CB371"
+                            android:textSize="10dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="14dp"
+                            android:drawableStart="@drawable/ic_baseline_star_18"
+                            android:gravity="center_horizontal"
+                            android:text="4.7 | 60 Reviews"
+                            android:textColor="#808080"
+                            android:textSize="10dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="14dp"
+                            android:gravity="center_horizontal"
+                            android:text="₹295.00"
+                            android:textColor="@color/black"
+                            android:textSize="10dp" />
+
+                        <Button
+                            android:onClick="dr"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:backgroundTint="#00AEEF"
+                            android:text="Buy Now"
+                            android:textColor="@color/white" />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="20dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:onClick="iodex"
+                            android:layout_width="150dp"
+                            android:layout_height="250dp"
+                            android:src="@drawable/iodex" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:gravity="center_horizontal"
+                            android:text="Iodex Fast Relief Balm, 40 gm"
+                            android:textColor="@color/black"
+                            android:textSize="10dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:gravity="center_horizontal"
+                            android:text="Multipurpose pain balm | Provides a warming effect"
+                            android:textColor="#3CB371"
+                            android:textSize="10dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="14dp"
+                            android:drawableStart="@drawable/ic_baseline_star_18"
+                            android:gravity="center_horizontal"
+                            android:text="4.8 | 225 Reviews"
+                            android:textColor="#808080"
+                            android:textSize="10dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="14dp"
+                            android:gravity="center_horizontal"
+                            android:text="₹149.00"
+                            android:textColor="@color/black"
+                            android:textSize="10dp" />
+
+                        <Button
+                            android:onClick="iodex"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:backgroundTint="#00AEEF"
+                            android:text="Buy Now"
+                            android:textColor="@color/white" />
+
+                    </LinearLayout>
+
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="40dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:onClick="oil"
+                            android:layout_width="150dp"
+                            android:layout_height="250dp"
+                            android:src="@drawable/zandu_oil" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:gravity="center_horizontal"
+                            android:text="Zandu Ortho Vedic Oil, 120ml"
+                            android:textColor="@color/black"
+                            android:textSize="10dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:gravity="center_horizontal"
+                            android:text="Joint Pain | Muscle Pain,"
+                            android:textColor="#3CB371"
+                            android:textSize="10dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="14dp"
+                            android:drawableStart="@drawable/ic_baseline_star_18"
+                            android:gravity="center_horizontal"
+                            android:text="4.1 | 1770 Reviews"
+                            android:textColor="#808080"
+                            android:textSize="10dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="14dp"
+                            android:gravity="center_horizontal"
+                            android:text="₹174.00"
+                            android:textColor="@color/black"
+                            android:textSize="10dp" />
+
+                        <Button
+                            android:onClick="oil"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:backgroundTint="#00AEEF"
+                            android:text="Buy Now"
+                            android:textColor="@color/white" />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="20dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:onClick="rul"
+                            android:layout_width="150dp"
+                            android:layout_height="250dp"
+                            android:src="@drawable/rumaliya" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:gravity="center_horizontal"
+                            android:text="Himalaya Rumalaya, 60 Tablets"
+                            android:textColor="@color/black"
+                            android:textSize="10dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:gravity="center_horizontal"
+                            android:text="Your daily dose of herbal goodness for joint problems"
+                            android:textColor="#3CB371"
+                            android:textSize="10dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="14dp"
+                            android:drawableStart="@drawable/ic_baseline_star_18"
+                            android:gravity="center_horizontal"
+                            android:text="4.8 | 225 Reviews"
+                            android:textColor="#808080"
+                            android:textSize="10dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="14dp"
+                            android:gravity="center_horizontal"
+                            android:text="₹159.00"
+                            android:textColor="@color/black"
+                            android:textSize="10dp" />
+
+                        <Button
+                            android:onClick="rul"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:backgroundTint="#00AEEF"
+                            android:text="Buy Now"
+                            android:textColor="@color/white" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+    </HorizontalScrollView>
+
+</LinearLayout>
